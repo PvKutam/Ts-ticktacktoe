@@ -1,12 +1,13 @@
 
 import './App.css'
-
+import  { Board} from "./Components/Board"
 function App() {
 
   return (
-    <>
-    <h1 className='text-violet-700'>Tictacktoe</h1>
-    </>
+  <div className='Borad'>
+    <Board />
+
+  </div>
   )
 }
 
